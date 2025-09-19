@@ -1,8 +1,13 @@
+# ignore db and csv files
+*.db
+*.csv
 # virtual environment folders
 .venv/
 venv/
 env/
 ENV/
+ds701/
+
 
 # Mac OS system files
 .DS_Store
