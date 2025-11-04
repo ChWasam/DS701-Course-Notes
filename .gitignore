@@ -14,3 +14,6 @@ ds701_venv
 # Ignore drawio temp files
 *.bkp
 *.dtmp
+
+# Ignore catboost files
+catboost_info/
