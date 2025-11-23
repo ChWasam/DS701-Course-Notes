@@ -25,11 +25,15 @@ qmd_files=(
   "19-Regression-III-More-Linear.qmd"
   "24-NN-II-Backprop.qmd"
   "25-NN-III-CNNs.qmd"
-  "20-Recommender-Systems.qmd"
+  "20-Recommender-Systems-I.qmd"
+  "20-Recommender-Systems-II.qmd"
   "21-Networks-I.qmd"
   "22-Networks-II-Centrality-Clustering.qmd"
   "26-TimeSeries.qmd"
   "27-RNN.qmd"
+  "28-NLP.qmd"
+  "29-NN-IV-Scikit-Learn.qmd"
+  "30-NN-consolidated.qmd"
 )
 
 # Check if jupyter_notebooks directory exists, if not, create it
@@ -48,7 +52,7 @@ for file in "${qmd_files[@]}"; do
     
     if [ ! -f "$ipynb_file" ] || [ "$qmd_file" -nt "$ipynb_file" ]; then
       # echo "Converting $file"
-      quarto convert "$qmd_file"
+      quarto convert "$qmd_file" --profile slides
       mv "${qmd_file%.qmd}.ipynb" "$ipynb_file"
     else
       echo "Skipping $file (up to date)"

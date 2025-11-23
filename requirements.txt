@@ -47,18 +47,22 @@ ffmpeg
 
 # 24-NN-II-Backprop
 graphviz
-torch
-torchvision
+#torch
+#torchvision
 
 # 26-TimeSeries
 kagglehub
 
 # 27-RNN
-pretty_midi
+#pretty_midi
 
 # 28-NLP
-transformers
+#transformers
 
 #  29-otter-grader
 otter-grader
 
+#nltk
+#spacy
+#hf_xet
+#bertopic

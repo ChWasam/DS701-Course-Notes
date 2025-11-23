@@ -37,12 +37,16 @@ project:
     - 23-NN-I-Gradient-Descent.qmd
     - 24-NN-II-Backprop.qmd
     - 25-NN-III-CNNs.qmd
-    - 20-Recommender-Systems.qmd
+    - 20-Recommender-Systems-I.qmd
+    - 20-Recommender-Systems-II.qmd
     - 21-Networks-I.qmd
     - 22-Networks-II-Centrality-Clustering.qmd
     - 26-TimeSeries.qmd
     - 27-RNN.qmd
     - 28-NLP.qmd
+    - 29-NN-IV-Scikit-Learn.qmd
+    - 30-NN-consolidated.qmd
+    - nlp_packages_overview.qmd
 
 resources:
   - figs/NN-figs/conv-demo/index.html
@@ -105,14 +109,18 @@ website:
         - 23-NN-I-Gradient-Descent.qmd
         - 24-NN-II-Backprop.qmd
         - 25-NN-III-CNNs.qmd
+        - 29-NN-IV-Scikit-Learn.qmd
+        - 30-NN-consolidated.qmd
     - section: "Selected Topics"
       contents:
         - 21-Networks-I.qmd
         - 22-Networks-II-Centrality-Clustering.qmd
-        - 20-Recommender-Systems.qmd
+        - 20-Recommender-Systems-I.qmd
+        - 20-Recommender-Systems-II.qmd
         - 26-TimeSeries.qmd
         - 27-RNN.qmd
         - 28-NLP.qmd
+        - nlp_packages_overview.qmd
 
 # bibliography: references.bib
 
