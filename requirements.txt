@@ -62,7 +62,10 @@ kagglehub
 #  29-otter-grader
 otter-grader
 
-#nltk
-#spacy
-#hf_xet
-#bertopic
+
+nltk
+spacy
+hf_xet
+bertopic
+
+qrcode
